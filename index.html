@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <div class="scores">
+            <p id="player_score">0</p>
+            <p id="computer_score">0</p>
+        </div>
+        <div class="choices">
+            <button class="btn" onclick="playRound('rock', getComputerChoice())">Rock</button>
+            <button class="btn" onclick="playRound('paper', getComputerChoice())">Paper</button>
+            <button class="btn" onclick="playRound('scissors', getComputerChoice())">Scissors</button>
+        </div>
+        <div class="result">
+            <h3 class="result_text"></h3>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,27 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.scores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.btn {
+    border: 0;
+    padding: 20px;
+}
+
+.scores p {
+    font-size: 25px;
+}
+
+.choices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
